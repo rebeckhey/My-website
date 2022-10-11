@@ -19,7 +19,7 @@ console.log(ed)
     return <div key={e.id} className="mb-5 col-md-6">
         <h5 className='text-color edu-text'>{e.utb}</h5>
         
-        <h6 className='text-color'>{e.år} {e.uni}</h6>
+        <h6 className='text-color' style={{fontWeight:"400"}}>{e.år} {e.uni}</h6>
         <hr className='text-color'></hr>
         </div>
    })

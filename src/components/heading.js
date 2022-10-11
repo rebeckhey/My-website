@@ -27,7 +27,7 @@ const nav = ({languageState, setLanguageState}) => {
           <div className="d-flex justify-content-md-between flex-md-row flex-column mt-5 ">
             <div className=' mr-md-5'>
             <h1 className="mb-md-1 mb-3 text-center text-md-left text-color">Rebecka Pettersson</h1>
-            <h4 className="text-center text-md-left mb-md-1 mb-3 text-color">{languageState === "swedish" ? language.swedish.roll : languageState === "english" ? language.english.roll : null }</h4>
+            <h4 className="text-center text-md-left mb-md-1 mb-3 text-color" style={{fontWeight:"400"}}>{languageState === "swedish" ? language.swedish.roll : languageState === "english" ? language.english.roll : null }</h4>
             <p className='mb-md-1 mb-3  text-center text-md-left text-color'> <AiOutlineMail/> Rebecka.pettersson.1993@gmail.com</p>
             <p className='mb-md-1 mb-3 text-center text-md-left text-color'> <MdOutlineCall/>{languageState === "swedish" ? language.swedish.telefonnummer : languageState === "english" ? language.english.telefonnummer : null }</p>
             <p className='mb-md-1 mb-3  text-center text-md-left text-color'> <GoLocation/>  {languageState === "swedish" ? language.swedish.plats : languageState === "english" ? language.english.plats : null }</p>

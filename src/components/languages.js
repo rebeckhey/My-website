@@ -13,6 +13,7 @@ export const language = {
         personligaEgenskaper:"Som person är jag social och trevlig och bidrar med god stämning i en grupp. Jag är noggrann, har bra tålamod och gör alltid mitt bästa. Jag har bra problemlösande egenskaper och tycker att jag lyckas tillämpa dessa bra i kodning. Jag tycker att programmering är roligt och har stor motivation till att utvecklas och lära mig nya saker inom det. Jag tycker om att arbeta med andra i team och är bra på att ta initiativ.",
         skillRubrik:"Kunskaper och färdigheter",
         workRubrik:"Arbetslivserfarenhet",
+        portfolio:"Länk till min Github"
        
        
 
@@ -32,7 +33,8 @@ export const language = {
         personligRubrik:"Personal characteristics",
         personligaEgenskaper:"As a person, I am social and friendly. I am thorough, have good patience and always do my best. I have good problem solving skills and I apply them well in coding. I like programming and I have great motivation to develop within it. I like to work in teams and I am good at taking initiative.",
         skillRubrik:"Knowledge and skills",
-        workRubrik:"Work experience"
+        workRubrik:"Work experience",
+        portfolio:"Link to my Github"
 
     }}
     

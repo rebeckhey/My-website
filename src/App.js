@@ -48,8 +48,10 @@ function App() {
   Active6.current.classList.remove("active")
   Active7.current.classList.remove("active")
   active.current.classList.add("active")
+ 
 
 }
+const styleLinks= {color:"black", fontWeight:"400"}
   return (
     <div className="App">
       
@@ -70,23 +72,23 @@ function App() {
         </button>
         <div className="collapse navbar-collapse" id="navbarExample01">
           <ul className="navbar-nav  me-auto mb-2 mb-lg-0">
-            <li className="nav-item active " ref={Active1}>
+            <li className="nav-item active nav-text" ref={Active1} >
          
-             <a  onClick={()=>scroll(ref1, Active1)} className="nav-link" aria-current="page" href="/">{languageState ==="swedish" ? language.swedish.hem : languageState ==="english" ? language.english.hem : null }</a>
+             <p onClick={()=>scroll(ref1, Active1)} className="nav-link text-left" style={styleLinks} aria-current="page" >{languageState ==="swedish" ? language.swedish.hem : languageState ==="english" ? language.english.hem : null }</p>
             
             </li>
-            <li className="nav-item "ref={Active2} >
-            <a  onClick={()=>scroll(ref2, Active2)}href="/" className="nav-link" aria-current="page">{languageState ==="swedish" ? language.swedish.omRubrik : languageState ==="english" ? language.english.omRubrik : null }</a>            </li>
-            <li className="nav-item" ref={Active3}>
-            <a  onClick={()=>scroll(ref3, Active3)} href="/" className="nav-link" aria-current="page">{languageState ==="swedish" ? language.swedish.utbRubrik : languageState ==="english" ? language.english.utbRubrik : null }</a>            </li>
-            <li className="nav-item" ref={Active4}>
-            <a  onClick={()=>scroll(ref4, Active4)} href="/" className="nav-link" aria-current="page">{languageState ==="swedish" ? language.swedish.personligRubrik : languageState ==="english" ? language.english.personligRubrik : null }</a>            </li>
-            <li className="nav-item"ref={Active5} >
-            <a  onClick={()=>scroll(ref5, Active5)} href="/" className="nav-link" aria-current="page">{languageState ==="swedish" ? language.swedish.skillRubrik : languageState ==="english" ? language.english.skillRubrik : null }</a>            </li>
-            <li className="nav-item" ref={Active6}>
-            <a  onClick={()=>scroll(ref6, Active6)} href="/" className="nav-link" aria-current="page">{languageState ==="swedish" ? language.swedish.workRubrik : languageState ==="english" ? language.english.workRubrik : null }</a>            </li>
-            <li className="nav-item" ref={Active7}>
-            <a  onClick={()=>scroll(ref7, Active7)} href="/" className="nav-link" aria-current="page">Portfolio</a></li>
+            <li className="nav-item nav-text"ref={Active2} >
+            <p  onClick={()=>scroll(ref2, Active2)} className="nav-link text-left" style={styleLinks}aria-current="page">{languageState ==="swedish" ? language.swedish.omRubrik : languageState ==="english" ? language.english.omRubrik : null }</p>            </li>
+            <li className="nav-item nav-text" ref={Active3}>
+            <p  onClick={()=>scroll(ref3, Active3)} className="nav-link text-left" style={styleLinks} aria-current="page">{languageState ==="swedish" ? language.swedish.utbRubrik : languageState ==="english" ? language.english.utbRubrik : null }</p>            </li>
+            <li className="nav-item nav-text" ref={Active4}>
+            <p  onClick={()=>scroll(ref4, Active4)}  className="nav-link text-left"style={styleLinks} aria-current="page">{languageState ==="swedish" ? language.swedish.personligRubrik : languageState ==="english" ? language.english.personligRubrik : null }</p>            </li>
+            <li className="nav-item nav-text"ref={Active5} >
+            <p  onClick={()=>scroll(ref5, Active5)} className="nav-link text-left" style={styleLinks}aria-current="page">{languageState ==="swedish" ? language.swedish.skillRubrik : languageState ==="english" ? language.english.skillRubrik : null }</p>            </li>
+            <li className="nav-item nav-text" ref={Active6}>
+            <p  onClick={()=>scroll(ref6, Active6)}  className="nav-link text-left" style={styleLinks}aria-current="page">{languageState ==="swedish" ? language.swedish.workRubrik : languageState ==="english" ? language.english.workRubrik : null }</p>            </li>
+            <li className="nav-item nav-text" ref={Active7}>
+            <p  onClick={()=>scroll(ref7, Active7)} className="nav-link text-left" style={styleLinks}aria-current="page">Portfolio</p></li>
           </ul>
         </div>
     <Toggle languageState={languageState} setLanguageState={setLanguageState}/>

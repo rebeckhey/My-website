@@ -35,7 +35,7 @@ outline: 10px solid #bc987e2f;
   cursor: pointer;
 }
 .om{
-height:700px;
+height:800px;
 background-color:#bc987e2f;
 }
 .work-exp{
@@ -52,7 +52,7 @@ background-color:#bc987e2f;
   font-weight: 500;
 }
 .personal{
-  height:550px;
+  height:600px;
 background-color:#bc987e2f;
 }
 .git-icon{
@@ -64,16 +64,24 @@ color:#BC987E;
 .git-link:hover{
 color:#BC987E;
 }
+.nav-text{
+  cursor: pointer;
+}
+
 @media screen and (max-width: 767px) {
   .bg-image{
    height: 700px;
   }
-    .om{
-      height:800px;
-    }
+
     .personal{
       height:650px;
     }
+    
+ }
+@media screen and (max-width: 991px) {
+  .nav-color{
+    background-color:#f6efe6;
+  }
     
  }
 

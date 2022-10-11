@@ -16,7 +16,7 @@ const WorkExperience = ({languageState, setLanguageState}) => {
     return <div key={e.id} className="mb-5 col-md-6">
         <h5 className='text-color edu-text'>{e.work}</h5>
         
-        <h6 className='text-color'>{e.desc}</h6>
+        <h6 className='text-color' style={{fontWeight:"400"}}>{e.desc}</h6>
         <hr className='text-color'></hr>
         </div>
    })

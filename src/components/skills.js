@@ -16,7 +16,7 @@ const skills = ({languageState, setLanguageState}) => {
     return <div key={e.id} className="mb-5 col-md-6">
         <h5 className='text-color edu-text'>{e.line1}</h5>
         
-        <h6 className='text-color'>{e.line2}</h6>
+        <h6 className='text-color' style={{fontWeight:"400"}}>{e.line2}</h6>
         <hr className='text-color'></hr>
         </div>
    })

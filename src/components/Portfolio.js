@@ -1,5 +1,6 @@
 import React from 'react'
 import { BsGithub } from 'react-icons/bs';
+import { language } from './languages';
 
 const Portfolio = ({languageState, setLanguageState}) => {
   return (
@@ -13,7 +14,7 @@ const Portfolio = ({languageState, setLanguageState}) => {
   <div className="mb-5 col-md-6 ">
 
     <BsGithub className='git-icon'/>
-    <a href="https://github.com/rebeckhey" className="nav-link git-link" aria-current="page">Go to my github</a>   
+    <a href="https://github.com/rebeckhey" className="nav-link git-link" aria-current="page">{languageState === "swedish" ? language.swedish.portfolio : languageState === "english" ? language.english.portfolio : null}</a>   
   </div>
  
   </div>
