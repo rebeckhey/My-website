@@ -15,7 +15,7 @@ const om = ({languageState, setLanguageState}) => {
 <p className='text-color'>{languageState === "swedish" ? language.swedish.om2 : languageState === "english" ? language.english.om2 : null }</p>
 </div>
         <div>
-        <img  className="illustration" src={'https://cdn.pixabay.com/photo/2022/05/20/22/57/man-7210357_960_720.png'}  alt="picture of me"/>
+        <img  className="illustration" src={'https://cdn.pixabay.com/photo/2022/05/20/22/57/man-7210357_960_720.png'}  alt="illustration"/>
         </div>
         </div>
         </div>

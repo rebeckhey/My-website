@@ -1,5 +1,4 @@
 import React from 'react'
-import { language } from './languages'
 import { BsGithub } from 'react-icons/bs';
 
 const Portfolio = ({languageState, setLanguageState}) => {
