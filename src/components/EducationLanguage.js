@@ -1,0 +1,4 @@
+export const educationLangugage = {
+   swedish:[{id:1,utb:"Frontendutvecklare", år:"2020-2022", uni:"EC utbildning"},{id:2, utb:"Tyska 1 i tyskland", år:"30 hp HT-2012", uni:"Mälardalens universitet"}, {id:3,utb:"Receptarieprograammet", år:"180 hp 2014 - 2017", uni:"Uppsala universitet"},{id:4,utb:"programmering 1 C#", år:"VT 2020", uni:"Academedia"}  ] ,
+    english:[{id:1, utb:"Frontend developer", år:"2020-2022", uni:"EC Education"},{id:2, utb:"German 1 in Germany", år:"30 hp fall 2012", uni:"Mälardalens university"}, {id:3, utb:"Degree in pharmaceutical", år:"180 hp 2014 - 2017", uni:"Uppsala university"},{id:4, utb:"Basic programming 1 C#", år:"Spring 2020", uni:"Academedia"}] 
+}

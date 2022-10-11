@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.bg-image { 
+  /* background: url('https://img.freepik.com/free-photo/abstract-neutral-paint-background-design_53876-129685.jpg?w=1380&t=st=1665146527~exp=1665147127~hmac=8c63e5077554d08be65e3fca4880971940d197fc8edb2a8a0bd81866d10c0a79') no-repeat center center fixed;  */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+}
+.text-color{
+  color:#BC987E;
+}
+.image{
+  border-radius: 50%;
+height: 150px;
+width: 150px;
+border: 10px solid #bc987e77;
+outline: 10px solid #bc987e2f;
+
+}
+
+.language-btn{
+  cursor: pointer;
+}
+.om{
+height:700px;
+background-color:#bc987e2f;
+}
+.work-exp{
+  background-color:#bc987e2f;
+
+}
+.illustration{
+  height:200px;
+}
+.nav-color{
+  background-color:#bc987e2f
+}
+.edu-text{
+  font-weight: 500;
+}
+.personal{
+  height:550px;
+background-color:#bc987e2f;
+}
+.git-icon{
+ font-size: 50px;
+}
+.git-link{
+color:#BC987E;
+}
+.git-link:hover{
+color:#BC987E;
+}
+@media screen and (max-width: 767px) {
+  .bg-image{
+   height: 700px;
+  }
+    .om{
+      height:800px;
+    }
+    .personal{
+      height:650px;
+    }
+    
+ }
+
+
